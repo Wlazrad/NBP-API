@@ -1,4 +1,8 @@
+import com.google.gson.Gson;
+import com.sun.org.apache.xerces.internal.jaxp.datatype.XMLGregorianCalendarImpl;
 import onstack.Book;
+import org.apache.juneau.html.HtmlSerializer;
+import org.apache.juneau.serializer.SerializeException;
 import org.simpleframework.xml.Serializer;
 import org.simpleframework.xml.core.Persister;
 
@@ -13,9 +17,14 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
+import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
+import javax.xml.datatype.XMLGregorianCalendar;
+import java.io.File;
 import java.io.StringReader;
+import java.io.StringWriter;
 import java.net.URI;
+import java.time.LocalDateTime;
 
 /**
  * Provides a simple heartbeat.
@@ -28,39 +37,101 @@ public class HeartbeatService {
     @Produces({ MediaType.TEXT_PLAIN })
     @GET
     public static Response getHeartBeat() throws JAXBException {
-        Client client = ClientBuilder.newClient();
-        URI uri = URI.create("http://api.nbp.pl/api/exchangerates/rates/c/gbp/last/10/?format=xml");
-        WebTarget webTarget = client.target(uri);
-        String xmlAnswer = webTarget.request().accept(MediaType.TEXT_XML).get(String.class);
-
-            JAXBContext context = JAXBContext.newInstance(ExchangeRatesSeries.class);
-
-            Unmarshaller unmarshaller = context.createUnmarshaller();
-            ExchangeRatesSeries exchangeRatesSeries = (ExchangeRatesSeries) unmarshaller.unmarshal(new StringReader(xmlAnswer));
-            System.out.println(exchangeRatesSeries.getCurrency());
-            String result=exchangeRatesSeries.getCurrency();
-
-            double sum =0;
-
-            for(int i = 0; i<=9; i++){
-                sum = sum + exchangeRatesSeries.rates.getRate().get(i).bid;
-
-                System.out.println(exchangeRatesSeries.rates.getRate().get(i).bid);
-            }
-
-        return Response.ok(sum/10).build();
+        double sum = CurrencyAverage.getAverage();
+        return Response.ok(sum).build();
     }
 
 
     @GET
     @Path("/{id}")
-    @Produces(MediaType.TEXT_PLAIN)
-    public Response rateXML(@PathParam("id") String param) {
-        if(param == "json"){
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response rateJson(@PathParam("id") String param) throws JAXBException {
+        double sum = CurrencyAverage.getAverage();
 
-            System.out.println("json");
-        }
-        return Response.ok("json").build();
+        ExchangeRatesSeries exchangeRatesSeries = new ExchangeRatesSeries();
+        ExchangeRatesSeries.Rates rates = new ExchangeRatesSeries.Rates();
+        ExchangeRatesSeries.Rates.Rate rate = new ExchangeRatesSeries.Rates.Rate();
+        rate.setBid((float) sum);
+        XMLGregorianCalendar effectiveDate = null;
+        rate.setEffectiveDate(effectiveDate);
+        rate.setAsk((float) sum);
+        rate.setNo("fdsf");
+
+
+        rates.getRate().add(0,rate);
+        exchangeRatesSeries.setTable("C");
+        exchangeRatesSeries.setCode("GBP");
+        exchangeRatesSeries.setCurrency("funt szterling");
+        exchangeRatesSeries.setRates(rates);
+
+        Gson gson = new Gson();
+        String json = gson.toJson(exchangeRatesSeries);
+
+        System.out.println(json);
+
+        return Response.ok(json).build();
+    }
+
+    @GET
+    @Path("/xml/xml")
+    @Produces(MediaType.APPLICATION_XML)
+    public Response rateXML() throws JAXBException {
+        double sum = CurrencyAverage.getAverage();
+
+        ExchangeRatesSeries exchangeRatesSeries = new ExchangeRatesSeries();
+        ExchangeRatesSeries.Rates rates = new ExchangeRatesSeries.Rates();
+        ExchangeRatesSeries.Rates.Rate rate = new ExchangeRatesSeries.Rates.Rate();
+        rate.setBid((float) sum);
+        XMLGregorianCalendar effectiveDate = null;
+        rate.setEffectiveDate(effectiveDate);
+        rate.setAsk((float) sum);
+        rate.setNo("fdsf");
+
+
+        rates.getRate().add(0,rate);
+        exchangeRatesSeries.setTable("C");
+        exchangeRatesSeries.setCode("GBP");
+        exchangeRatesSeries.setCurrency("funt szterling");
+        exchangeRatesSeries.setRates(rates);
+
+
+
+        JAXBContext context = JAXBContext.newInstance(ExchangeRatesSeries.class);
+        Marshaller m = context.createMarshaller();
+        m.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
+
+        StringWriter sw = new StringWriter();
+        m.marshal(exchangeRatesSeries, sw);
+
+        String result = sw.toString();
+
+        return Response.ok(result).build();
+    }
+
+    @GET
+    @Path("/html/html")
+    @Produces(MediaType.TEXT_HTML)
+    public Response rateHTML() throws JAXBException, SerializeException {
+        double sum = CurrencyAverage.getAverage();
+
+        ExchangeRatesSeries exchangeRatesSeries = new ExchangeRatesSeries();
+        ExchangeRatesSeries.Rates rates = new ExchangeRatesSeries.Rates();
+        ExchangeRatesSeries.Rates.Rate rate = new ExchangeRatesSeries.Rates.Rate();
+        rate.setBid((float) sum);
+        XMLGregorianCalendar effectiveDate = null;
+        rate.setEffectiveDate(effectiveDate);
+        rate.setAsk((float) sum);
+        rate.setNo("fdsf");
+
+
+        rates.getRate().add(0,rate);
+        exchangeRatesSeries.setTable("C");
+        exchangeRatesSeries.setCode("GBP");
+        exchangeRatesSeries.setCurrency("funt szterling");
+        exchangeRatesSeries.setRates(rates);
+
+        String html = HtmlSerializer.DEFAULT.serialize(exchangeRatesSeries);
+        return Response.ok(html).build();
     }
 
 

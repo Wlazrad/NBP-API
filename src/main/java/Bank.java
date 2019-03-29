@@ -6,7 +6,7 @@ import java.net.URI;
 
 public class Bank {
 
-    public static String getBankXml(){
+    public static String getBankXml() {
         Client client = ClientBuilder.newClient();
         URI uri = URI.create("http://api.nbp.pl/api/exchangerates/rates/c/gbp/last/10/?format=xml");
         WebTarget webTarget = client.target(uri);

@@ -1,20 +1,14 @@
-import java.io.Serializable;
+import javax.xml.bind.annotation.*;
+import javax.xml.datatype.XMLGregorianCalendar;
 import java.util.ArrayList;
 import java.util.List;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlSchemaType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
  * <p>Java class for anonymous complex type.
- * 
+ *
  * <p>The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType>
  *   &lt;complexContent>
@@ -52,15 +46,13 @@ import javax.xml.datatype.XMLGregorianCalendar;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "table",
-    "currency",
-    "code",
-    "rates"
+        "table",
+        "currency",
+        "code",
+        "rates"
 })
 @XmlRootElement(name = "ExchangeRatesSeries")
 public class ExchangeRatesSeries {
@@ -76,11 +68,9 @@ public class ExchangeRatesSeries {
 
     /**
      * Gets the value of the table property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getTable() {
         return table;
@@ -88,11 +78,9 @@ public class ExchangeRatesSeries {
 
     /**
      * Sets the value of the table property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setTable(String value) {
         this.table = value;
@@ -100,11 +88,9 @@ public class ExchangeRatesSeries {
 
     /**
      * Gets the value of the currency property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getCurrency() {
         return currency;
@@ -112,11 +98,9 @@ public class ExchangeRatesSeries {
 
     /**
      * Sets the value of the currency property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setCurrency(String value) {
         this.currency = value;
@@ -124,11 +108,9 @@ public class ExchangeRatesSeries {
 
     /**
      * Gets the value of the code property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getCode() {
         return code;
@@ -136,11 +118,9 @@ public class ExchangeRatesSeries {
 
     /**
      * Sets the value of the code property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setCode(String value) {
         this.code = value;
@@ -148,11 +128,9 @@ public class ExchangeRatesSeries {
 
     /**
      * Gets the value of the rates property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ExchangeRatesSeries.Rates }
-     *     
+     *
+     * @return possible object is
+     * {@link ExchangeRatesSeries.Rates }
      */
     public ExchangeRatesSeries.Rates getRates() {
         return rates;
@@ -160,11 +138,9 @@ public class ExchangeRatesSeries {
 
     /**
      * Sets the value of the rates property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ExchangeRatesSeries.Rates }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link ExchangeRatesSeries.Rates }
      */
     public void setRates(ExchangeRatesSeries.Rates value) {
         this.rates = value;
@@ -173,9 +149,9 @@ public class ExchangeRatesSeries {
 
     /**
      * <p>Java class for anonymous complex type.
-     * 
+     *
      * <p>The following schema fragment specifies the expected content contained within this class.
-     * 
+     *
      * <pre>
      * &lt;complexType>
      *   &lt;complexContent>
@@ -200,12 +176,10 @@ public class ExchangeRatesSeries {
      *   &lt;/complexContent>
      * &lt;/complexType>
      * </pre>
-     * 
-     * 
      */
     @XmlAccessorType(XmlAccessType.FIELD)
     @XmlType(name = "", propOrder = {
-        "rate"
+            "rate"
     })
     public static class Rates {
 
@@ -214,25 +188,23 @@ public class ExchangeRatesSeries {
 
         /**
          * Gets the value of the rate property.
-         * 
+         *
          * <p>
          * This accessor method returns a reference to the live list,
          * not a snapshot. Therefore any modification you make to the
          * returned list will be present inside the JAXB object.
          * This is why there is not a <CODE>set</CODE> method for the rate property.
-         * 
+         *
          * <p>
          * For example, to add a new item, do as follows:
          * <pre>
          *    getRate().add(newItem);
          * </pre>
-         * 
-         * 
+         *
+         *
          * <p>
          * Objects of the following type(s) are allowed in the list
          * {@link ExchangeRatesSeries.Rates.Rate }
-         * 
-         * 
          */
         public List<ExchangeRatesSeries.Rates.Rate> getRate() {
             if (rate == null) {
@@ -244,9 +216,9 @@ public class ExchangeRatesSeries {
 
         /**
          * <p>Java class for anonymous complex type.
-         * 
+         *
          * <p>The following schema fragment specifies the expected content contained within this class.
-         * 
+         *
          * <pre>
          * &lt;complexType>
          *   &lt;complexContent>
@@ -261,15 +233,13 @@ public class ExchangeRatesSeries {
          *   &lt;/complexContent>
          * &lt;/complexType>
          * </pre>
-         * 
-         * 
          */
         @XmlAccessorType(XmlAccessType.FIELD)
         @XmlType(name = "", propOrder = {
-            "no",
-            "effectiveDate",
-            "bid",
-            "ask"
+                "no",
+                "effectiveDate",
+                "bid",
+                "ask"
         })
         public static class Rate {
 
@@ -285,11 +255,9 @@ public class ExchangeRatesSeries {
 
             /**
              * Gets the value of the no property.
-             * 
-             * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             *
+             * @return possible object is
+             * {@link String }
              */
             public String getNo() {
                 return no;
@@ -297,11 +265,9 @@ public class ExchangeRatesSeries {
 
             /**
              * Sets the value of the no property.
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link String }
              */
             public void setNo(String value) {
                 this.no = value;
@@ -309,11 +275,9 @@ public class ExchangeRatesSeries {
 
             /**
              * Gets the value of the effectiveDate property.
-             * 
-             * @return
-             *     possible object is
-             *     {@link XMLGregorianCalendar }
-             *     
+             *
+             * @return possible object is
+             * {@link XMLGregorianCalendar }
              */
             public XMLGregorianCalendar getEffectiveDate() {
                 return effectiveDate;
@@ -321,11 +285,9 @@ public class ExchangeRatesSeries {
 
             /**
              * Sets the value of the effectiveDate property.
-             * 
-             * @param value
-             *     allowed object is
-             *     {@link XMLGregorianCalendar }
-             *     
+             *
+             * @param value allowed object is
+             *              {@link XMLGregorianCalendar }
              */
             public void setEffectiveDate(XMLGregorianCalendar value) {
                 this.effectiveDate = value;
@@ -333,7 +295,6 @@ public class ExchangeRatesSeries {
 
             /**
              * Gets the value of the bid property.
-             * 
              */
             public float getBid() {
                 return bid;
@@ -341,7 +302,6 @@ public class ExchangeRatesSeries {
 
             /**
              * Sets the value of the bid property.
-             * 
              */
             public void setBid(float value) {
                 this.bid = value;
@@ -349,7 +309,6 @@ public class ExchangeRatesSeries {
 
             /**
              * Gets the value of the ask property.
-             * 
              */
             public float getAsk() {
                 return ask;
@@ -357,7 +316,6 @@ public class ExchangeRatesSeries {
 
             /**
              * Sets the value of the ask property.
-             * 
              */
             public void setAsk(float value) {
                 this.ask = value;
@@ -367,4 +325,14 @@ public class ExchangeRatesSeries {
 
     }
 
+
+    @Override
+    public String toString() {
+        return "ExchangeRatesSeries{" +
+                "table='" + table + '\'' +
+                ", currency='" + currency + '\'' +
+                ", code='" + code + '\'' +
+                ", rates=" + rates +
+                '}';
+    }
 }

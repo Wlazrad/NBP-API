@@ -94,17 +94,9 @@
       <change afterPath="$PROJECT_DIR$/../projektySzymka/ProgrammingOffers-f0bd2e9c65c728fd9b559dd6cb190342e3804b10/ProgrammingOffers.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CurrencyAverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Marshaller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HeartbeatService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MakeObject.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/RestApplicationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/XmlCall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/onstack/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/onstack/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/onstack/ReadXMLFileJaxb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/onstack/book.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/wal.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/waluty.xsd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ARcourse" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../CodeWars" beforeDir="false" afterPath="$PROJECT_DIR$/../CodeWars" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../InfoShare/java-koans" beforeDir="false" />
@@ -300,12 +292,41 @@
       <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/plansza9.dat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Play/Play.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Play/Postac.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CurrencyAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CurrencyAverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ExchangeRatesSeries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExchangeRatesSeries.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/HeartbeatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HeartbeatService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ObjectFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/XmlCall.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/onstack/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/onstack/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/onstack/ReadXMLFileJaxb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/onstack/book.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wal.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/waluty.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/currency.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CurrencyAverage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CurrencyAverage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ExchangeRatesSeries$Rates$Rate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ExchangeRatesSeries$Rates$Rate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ExchangeRatesSeries$Rates.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ExchangeRatesSeries$Rates.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ExchangeRatesSeries.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ExchangeRatesSeries.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/HeartbeatService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HeartbeatService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ObjectFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ObjectFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/XmlCall$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/XmlCall.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/onstack/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/onstack/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/onstack/ReadXMLFileJaxb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jaxrs-1.0-SNAPSHOT/WEB-INF/classes/CurrencyAverage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jaxrs-1.0-SNAPSHOT/WEB-INF/classes/CurrencyAverage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jaxrs-1.0-SNAPSHOT/WEB-INF/classes/ExchangeRatesSeries$Rates$Rate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jaxrs-1.0-SNAPSHOT/WEB-INF/classes/ExchangeRatesSeries$Rates$Rate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jaxrs-1.0-SNAPSHOT/WEB-INF/classes/ExchangeRatesSeries$Rates.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jaxrs-1.0-SNAPSHOT/WEB-INF/classes/ExchangeRatesSeries$Rates.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jaxrs-1.0-SNAPSHOT/WEB-INF/classes/ExchangeRatesSeries.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jaxrs-1.0-SNAPSHOT/WEB-INF/classes/ExchangeRatesSeries.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jaxrs-1.0-SNAPSHOT/WEB-INF/classes/HeartbeatService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jaxrs-1.0-SNAPSHOT/WEB-INF/classes/HeartbeatService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jaxrs-1.0-SNAPSHOT/WEB-INF/classes/ObjectFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jaxrs-1.0-SNAPSHOT/WEB-INF/classes/ObjectFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jaxrs-1.0-SNAPSHOT/WEB-INF/classes/XmlCall$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jaxrs-1.0-SNAPSHOT/WEB-INF/classes/XmlCall.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jaxrs-1.0-SNAPSHOT/WEB-INF/classes/onstack/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jaxrs-1.0-SNAPSHOT/WEB-INF/classes/onstack/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jaxrs-1.0-SNAPSHOT/WEB-INF/classes/onstack/ReadXMLFileJaxb.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../test" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../wzorce_projektowe/Adapter/.idea/description.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../wzorce_projektowe/Adapter/.idea/encodings.xml" beforeDir="false" />
@@ -345,20 +366,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/HeartbeatService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+            <state relative-caret-position="306">
+              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/HeartbeatService.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/currency.xsd">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
+            <state relative-caret-position="289">
+              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MakeObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -369,20 +402,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/CurrencyAverage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Marshaller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="323">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -390,20 +411,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Bank.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+            <state relative-caret-position="102">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ObjectFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
             </state>
           </provider>
         </entry>
@@ -411,20 +423,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ExchangeRatesSeries.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3128">
-              <caret line="279" column="57" selection-start-line="279" selection-start-column="22" selection-end-line="279" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/onstack/ReadXMLFileJaxb.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="20" column="12" selection-start-line="16" selection-end-line="26" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-2227">
+              <caret line="122" column="35" selection-start-line="122" selection-start-column="35" selection-end-line="122" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -442,10 +442,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/XmlCall.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ObjectFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+            <state relative-caret-position="342">
+              <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Marshaller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -481,7 +490,6 @@
         <option value="$PROJECT_DIR$/src/main/java/waluty.xsd" />
         <option value="$PROJECT_DIR$/src/main/java/wal.xsd" />
         <option value="$PROJECT_DIR$/src/main/java/Rates.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ExchangeRatesSeries.java" />
         <option value="$PROJECT_DIR$/src/main/java/onstack/Items.java" />
         <option value="$PROJECT_DIR$/src/main/java/onstack/Item.java" />
         <option value="$PROJECT_DIR$/src/main/java/onstack/input.xml" />
@@ -492,10 +500,13 @@
         <option value="$PROJECT_DIR$/src/main/java/onstack/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/onstack/ReadXMLFileJaxb.java" />
         <option value="$PROJECT_DIR$/src/main/java/Data.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Bank.java" />
         <option value="$PROJECT_DIR$/src/main/java/Marshaller.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CurrencyAverage.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Bank.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CurrencyAverage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MakeObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ObjectFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ExchangeRatesSeries.java" />
         <option value="$PROJECT_DIR$/src/main/java/HeartbeatService.java" />
       </list>
     </option>
@@ -530,7 +541,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -556,25 +566,18 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="rate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="onstack" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553852100194" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553858687137" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/waluty.xsd" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -607,7 +610,7 @@
   <component name="RunManager" selected="JBoss Server.Wild">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="onstack.Demo" />
-      <module name="rate" />
+      <module name="NBP-API" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="onstack.*" />
@@ -620,14 +623,14 @@
     </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="rate" />
+      <module name="NBP-API" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bezjaxrs.Main" />
-      <module name="rate" />
+      <module name="NBP-API" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="bezjaxrs.*" />
@@ -640,14 +643,14 @@
     </configuration>
     <configuration name="MainPars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainPars" />
-      <module name="rate" />
+      <module name="NBP-API" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="ReadXMLFileJaxb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="onstack.ReadXMLFileJaxb" />
-      <module name="rate" />
+      <module name="NBP-API" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="onstack.*" />
@@ -731,6 +734,53 @@
         </option>
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="NBP-API" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="NBP-API" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ReadXMLFileJaxb" />
@@ -770,18 +820,19 @@
       <workItem from="1553788267774" duration="4905000" />
       <workItem from="1553794556839" duration="374000" />
       <workItem from="1553794959255" duration="13932000" />
-      <workItem from="1553837839741" duration="10662000" />
+      <workItem from="1553837839741" duration="12325000" />
+      <workItem from="1553854721664" duration="3203000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67013000" />
+    <option name="totallyTimeSpent" value="71879000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17643923" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17803837" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -797,7 +848,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32932165" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32932165" />
@@ -807,7 +858,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32908913" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32889125" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -830,24 +881,11 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Rates.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Rate.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypackage/wal.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypackage/wal.xsd" />
     <entry file="file://$PROJECT_DIR$/src/main/java/onstack/input.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/onstack/Demo.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/onstack/Item.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/onstack/Items.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/waluty.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-end-line="65" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/wal.xsd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -855,22 +893,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/getData.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/javax/xml/bind/Unmarshaller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6494">
+          <caret line="408" column="17" selection-start-line="408" selection-start-column="17" selection-end-line="408" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Data.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/onstack/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="68">
           <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#152#160#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/getData.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/onstack/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -883,71 +931,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/javax/xml/bind/Unmarshaller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6494">
-          <caret line="408" column="17" selection-start-line="408" selection-start-column="17" selection-end-line="408" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/onstack/book.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Data.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/onstack/ReadXMLFileJaxb.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="12" selection-start-line="16" selection-end-line="26" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Marshaller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Bank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ObjectFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/RestApplicationConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="391">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -964,31 +951,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ExchangeRatesSeries.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/onstack/book.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3128">
-          <caret line="279" column="57" selection-start-line="279" selection-start-column="22" selection-end-line="279" selection-end-column="57" />
+        <state relative-caret-position="289">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/currency.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MakeObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Marshaller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/RestApplicationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ObjectFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CurrencyAverage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        <state relative-caret-position="323">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ExchangeRatesSeries.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="-2227">
+          <caret line="122" column="35" selection-start-line="122" selection-start-column="35" selection-end-line="122" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Bank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/HeartbeatService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
+        <state relative-caret-position="306">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
